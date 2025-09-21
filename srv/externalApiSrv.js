@@ -10,7 +10,7 @@ module.exports = cds.service.impl(async function () {
 
             return response.data;
         } catch (error) {
-            req.error(500, `Failed to fetch external data`);
+            req.error(500, `Failed to fetch external data from the API`);
         }
     })
 });
